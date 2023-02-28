@@ -1,0 +1,13 @@
+word=input()
+I=word.count('I')
+M=word.count('M')
+C=word.count('C')
+W=word.count('W')
+if I != 2:
+    print('I')
+elif M != 1:
+    print('M')
+elif C !=3:
+    print('C')
+elif W !=1:
+    print('W')
